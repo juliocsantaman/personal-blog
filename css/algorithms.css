@@ -9,10 +9,33 @@ img {
 main div {
   margin-top: 2%;
   width: 50%;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main p, main ul {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 main {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3 {
+  margin-top: 1.5rem;
+}
+
+iframe {
+  width: 40%;
+  height: 18rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.examples {
+  margin-bottom: 2rem;
 }

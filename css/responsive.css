@@ -24,6 +24,9 @@ No media query for `xs` since this is the default in Bootstrap
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  img {
+    width: 50%;
+  }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
